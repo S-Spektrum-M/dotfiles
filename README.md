@@ -8,7 +8,7 @@ chmod +x install.sh
 
 # Components
 
-## vim
+## Vim
 
 ### Vundle
 plugin manager
@@ -16,13 +16,13 @@ plugin manager
 ### Fugitive
 Git Wrapper
 
-### vim-One
+### Vim-One
 One Dark/Light
 
 ### taboo
 Tab-Editing
 
-### vim-auto-save
+### Vim-auto-save
 Auto Saver
 
 ### Ctrl P
@@ -37,28 +37,28 @@ File Explorer
 ### YCM
 Auto Completion
 
-### vim-GitGutter
+### Vim-GitGutter
 Git Gutter
 
-### vim-rainbow
+### Vim-rainbow
 Rainbow Brackets
 
-### vime-airline
+### Vime-airline
 Airline Bar
 
-### vim-airline-themes
+### Vim-airline-themes
 Themes for airline
 
-### vim-polyglot
+### Vim-polyglot
 Better Syntax Highlighting
 
-### vim-codefmt
+### Vim-codefmt
 Formating
 
-### vim-mktaba
+### Vim-mktaba
 Need for codefmt
 
-### vim-glaive
+### Vim-glaive
 Need for codefmt
 
 ### sparkup
@@ -66,4 +66,10 @@ Auto Expand HTML
 
 ## Zsh
 
+## Oh My Zsh
+
+### Git
+Git Integrations for ZSH
+
 ## Tmux
+[Source](https://github.com/gpakosz/.tmux)
