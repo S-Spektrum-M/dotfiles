@@ -1,3 +1,16 @@
+███████████████████████████████████████████████████████████████████████████████████████████████████
+█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██████████░░░░░░█░░░░░░░░░░░░░░███████████████████████████████
+█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░░░░░░░░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░███████████████████████████████
+█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░░░█████░░░░░░█████████░░░░░░█████
+█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░██░░▄▀░░█░░▄▀░░█████████████░░▄▀░░█████████░░▄▀░░█████
+█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░░░█░░░░░░▄▀░░░░░░█░░░░░░▄▀░░░░░░█
+█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█
+█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░░░█░░░░░░▄▀░░░░░░█░░░░░░▄▀░░░░░░█
+█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░░░░░▄▀░░█░░▄▀░░█████████████░░▄▀░░█████████░░▄▀░░█████
+█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░██░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░█████████████░░░░░░█████████░░░░░░█████
+█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░░░░░░░░░▄▀░░█░░▄▀░░███████████████████████████████████████
+█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██████████░░░░░░█░░░░░░███████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████████████████████████
 # Dotfiles
 
 # Install Script
@@ -10,65 +23,65 @@ chmod +x install.sh
 
 ## Vim
 
-### Vundle
+[### Vundle](https://github.com/VundleVim/Vundle.vim)
 plugin manager
 
-### Fugitive
+[### Fugitive](https://github.com/tpope/vim-fugitive)
 Git Wrapper
 
-### Vim-One
+[### Vim-One](https://github.com/rakr/vim-one)
 One Dark/Light
 
-### taboo
+[### Taboo](https://github.com/gcmt/tabbo.vim)
 Tab-Editing
 
-### Vim-auto-save
+[### Vim-auto-save](https://github.com/907th/)
 Auto Saver
 
-### Ctrl P
+[### Ctrl P]()
 Fuzzy Finder
 
-### NERDCommenter
-Comments
+[### NERDCommenter]()
+Better Commenting
 
-### NERDTree
-File Explorer
+[### NERDTree]()
+Better Netrw
 
-### YCM
+[### YCM]()
 Auto Completion
 
-### Vim-GitGutter
+[### Vim-GitGutter]()
 Git Gutter
 
-### Vim-rainbow
+[### Vim-rainbow]()
 Rainbow Brackets
 
-### Vime-airline
+[### Vim-airline]()
 Airline Bar
 
-### Vim-airline-themes
+[### Vim-airline-themes]()
 Themes for airline
 
-### Vim-polyglot
+[### Vim-polyglot]()
 Better Syntax Highlighting
 
-### Vim-codefmt
+[### Vim-codefmt]()
 Formating
 
-### Vim-mktaba
+[### Vim-mktaba]()
 Need for codefmt
 
-### Vim-glaive
+[### Vim-glaive]()
 Need for codefmt
 
-### sparkup
+[### sparkup]()
 Auto Expand HTML
 
 ## Zsh
 
-## Oh My Zsh
+### Oh My Zsh
 
-### Git
+#### Git
 Git Integrations for ZSH
 
 ## Tmux
