@@ -28,7 +28,6 @@ Plugin 'rakr/vim-one'                               " One Dark/Light colorscheme
 Plugin 'gcmt/taboo.vim'                             " Tab Editing
 Plugin '907th/vim-auto-save'                        " Auto-Save
 Plugin 'ctrlpvim/ctrlp.vim'                         " Fuzzy Finding
-Plugin 'puremourning/vimspector'                    " Debbuging
 Plugin 'preservim/nerdcommenter'                    " Commenting
 Plugin 'preservim/nerdtree' |                       " NERDtree👈👈👈👈
 Plugin 'git@github.com:Valloric/YouCompleteMe.git'  " YCM code completions
@@ -40,17 +39,7 @@ Plugin 'sheerun/vim-polyglot'                       " Better syntax highlighting
 Plugin 'google/vim-codefmt'                         " Formating 👈
 Plugin 'google/vim-maktaba'                         " Needed for 👆
 Plugin 'google/vim-glaive'                          " Needed for 👆
-" Unused Plugins
-"Plugin 'jeaye/color_coded'
-"Plugin 'karoliskoncevicius/vim-sendtowindow'
-"Plugin 'frazrepo/vim-rainbow'
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-"Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plugin 'junegunn/fzf.vim'
-"Plugin 'voldikss/vim-floaterm'
-"Plugin 'joshdick/onedark.vim'
-"Plugin 'severin-lemaignan/vim-minimap'
-"Plugin 'jeaye/color_coded'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()
 
 au VimEnter * NERDTree | wincmd p
@@ -66,18 +55,6 @@ let g:airlinethme = "onedark"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
 
 filetype plugin indent on
 if &t_Co > 1
