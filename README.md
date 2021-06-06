@@ -72,9 +72,9 @@ Auto Expand HTML
 
 ## Zsh
 
-###Oh My Zsh
+### Oh My Zsh
 
-####Git
+#### Git
 Git Integrations for ZSH
 
 ## Tmux
