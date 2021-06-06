@@ -1,4 +1,3 @@
-
 ░█████╗░░█████╗░███╗░░██╗███████╗░░░░░░░░░░░░░░
 ██╔══██╗██╔══██╗████╗░██║██╔════╝░░██╗░░░░██╗░░
 ██║░░╚═╝██║░░██║██╔██╗██║█████╗░░██████╗██████╗
@@ -17,65 +16,65 @@ chmod +x install.sh
 
 ## Vim
 
-[### Vundle](https://github.com/VundleVim/Vundle.vim)
+### [Vundle](https://github.com/VundleVim/Vundle.vim)
 plugin manager
 
-[### Fugitive](https://github.com/tpope/vim-fugitive)
+### [Fugitive](https://github.com/tpope/vim-fugitive)
 Git Wrapper
 
-[### Vim-One](https://github.com/rakr/vim-one)
+### [Vim-One](https://github.com/rakr/vim-one)
 One Dark/Light
 
-[### Taboo](https://github.com/gcmt/tabbo.vim)
+### [Taboo](https://github.com/gcmt/tabbo.vim)
 Tab-Editing
 
-[### Vim-auto-save](https://github.com/907th/)
+### [Vim-auto-save](https://github.com/907th/vim-auto-save)
 Auto Saver
 
-[### Ctrl P]()
+### [Ctrl P](https://github.com/ctrlpvim/ctrlp.vim)
 Fuzzy Finder
 
-[### NERDCommenter]()
+### [NERDCommenter](https://github.com/perservim/nerdcommenter)
 Better Commenting
 
-[### NERDTree]()
+### [NERDTree](https://github.com/perservim/nerdtree)
 Better Netrw
 
-[### YCM]()
+### [YCM](https)
 Auto Completion
 
-[### Vim-GitGutter]()
+### [Vim-GitGutter]()
 Git Gutter
 
-[### Vim-rainbow]()
+### [Vim-rainbow]()
 Rainbow Brackets
 
-[### Vim-airline]()
+### [Vim-airline]()
 Airline Bar
 
-[### Vim-airline-themes]()
+### [Vim-airline-themes]()
 Themes for airline
 
-[### Vim-polyglot]()
+### [Vim-polyglot]()
 Better Syntax Highlighting
 
-[### Vim-codefmt]()
+### [Vim-codefmt]()
 Formating
 
-[### Vim-mktaba]()
+### [Vim-mktaba]()
 Need for codefmt
 
-[### Vim-glaive]()
+### [Vim-glaive]()
 Need for codefmt
 
-[### sparkup]()
+### [Sparkup]()
 Auto Expand HTML
 
 ## Zsh
 
-### Oh My Zsh
+###Oh My Zsh
 
-#### Git
+####Git
 Git Integrations for ZSH
 
 ## Tmux
