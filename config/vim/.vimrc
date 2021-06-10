@@ -30,7 +30,7 @@ Plugin '907th/vim-auto-save'                        " Auto-Save
 Plugin 'ctrlpvim/ctrlp.vim'                         " Fuzzy Finding
 Plugin 'preservim/nerdcommenter'                    " Commenting
 Plugin 'preservim/nerdtree' |                       " NERDtree👈👈👈👈
-Plugin 'git@github.com:Valloric/YouCompleteMe.git'  " YCM code completions
+Plugin 'ycm-core/YouCompleteMe.git'                 " YCM code completions
 Plugin 'airblade/vim-gitgutter'                     " Git Gutter
 Plugin 'frazrepo/vim-rainbow'                       " Rainbow pharenthesis
 Plugin 'vim-airline/vim-airline'                    " Airline(Because I couldn't get light line to work 😥 )
@@ -43,6 +43,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()
 
 au VimEnter * NERDTree | wincmd p
+au VimEnter * call Filespecific()
 au BufWrite * %s/\s\+$//e | "NERDTreeRefreshRoot
 
 let NERDTreeShowHidden=1
@@ -82,6 +83,16 @@ set colorcolumn=110
 set scl=auto
 set updatetime=100 " 100ms update
 
+fu Filespecific()
+    if &filetype ==# 'python'
+        set colorcolumn=80
+    elseif &filetype ==# 'java'
+        set colorcolumn=140
+    else
+        set colorcolumn=110
+    endif
+endfu
+
 "highlight ColorColumn ctermbg=524384
 "highlight Normal ctermbg=none
 "highlight Terminal ctermbg=none
@@ -96,18 +107,18 @@ endfu
 
 fu Run() " Run Command
     if &filetype ==# 'python'
-            ! python3 %
+        ! python3 %
     elseif &filetype ==# 'javascript'
-            ! node %
+        ! node %
     elseif &filetype ==# 'c'
-            make run
+        make run
     elseif &filetype ==# 'cpp'
-            make run
+        make run
     elseif &filetype ==# 'typescript'
-            ! tsc % --outfile outfile.js; node outfile.js
+        ! tsc % --outfile outfile.js; node outfile.js
     elseif &filetype ==# 'java'
-            make
-            make run
+        make
+        make run
     else
         echom "unsupported filetype"
     endif
