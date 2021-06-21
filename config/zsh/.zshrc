@@ -121,7 +121,7 @@ alias egrep='egrep --color=auto'
 alias ytdl='youtube-dl'
 alias tmat='tmux attach -t '
 alias tmkt='tmux kill-session -t '
-
+alias commitcount='git log | grep -c commit'
 #alias ls="ls -X"
 # Startup commands
 
