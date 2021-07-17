@@ -28,7 +28,5 @@ python3 install.py --all
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh; sh install.sh # oh my zsh
 
 # More stuff
-# Chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 # TODO
